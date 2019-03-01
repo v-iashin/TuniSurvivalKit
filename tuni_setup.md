@@ -56,3 +56,7 @@ The setup is inspired by https://www.youtube.com/watch?v=nKP6M0xIuqE. The specif
 4. After the automatic connection is turned on, bind the VPN to this particular connections. So it will automatically connect to VPN after it is connected to the internet.
 
 TUNI note: useful command: `nmap -sn 130.230.89.0/24`, `nmcli con show`
+
+## Problem with `torch.nn.DataParallel()` and ThreadRipper processors
+
+Sometimes you run your code in `torch.nn.DataParallel()` on 1+ GPUs and it just hangs. Take a look at the solution provided by one of the ?NVidia? developers: https://github.com/pytorch/pytorch/issues/1637#issuecomment-338268158
