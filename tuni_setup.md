@@ -1,4 +1,4 @@
-# How to setup a personal desktop with Ubuntu 18.04 and connect to it remotely**
+# How to setup a personal desktop with Ubuntu 18.04 and connect to it remotely
 
 ## Ubuntu installation
 Assuming that use have a bootable usb with Ubuntu 18.04 and a clean machine.
@@ -52,7 +52,7 @@ The setup is inspired by https://www.youtube.com/watch?v=nKP6M0xIuqE. The specif
 
 1. go to vpn settings. and follow the steps from the video mentioned above and use the info from IT helpdesk in your company (TUNI note: `staff-ras.vpn.tut.fi` gateway and the credentials from TUT). In the password form select that it will be applicable for all users.
 2. Then we need to prohibit Wired connections to connect automatically after the startup. Type `nm-connection-editor` in terminal (or just to to Edit connection on 16.04). Click on wired connections and go to Preferences (setting icon at the bottom) > General > uncheck the box. Repeat for another connection.
-3. Also, in the same editor, make sure to allow your desktop to connect to internet automatically using wired connection (turn this back on see the previous step). TUNI note: we use 'roam.fi'. 
+3. Also, in the same editor, make sure to allow your desktop to connect to internet automatically using wired connection (turn this back on see the previous step). TUNI note: we use 'roam.fi' (pass for all users as well). 
 4. After the automatic connection is turned on, bind the VPN to this particular connections. So it will automatically connect to VPN after it is connected to the internet.
 
 TUNI note: useful command: `nmap -sn 130.230.89.0/24`, `nmcli con show`
