@@ -48,7 +48,7 @@ TUNI note: Currently you cannot write and edit files in `/home/hdd` and `/home/n
 ## Setup VPN
 In order to connect to the desktop remotely you need to connect the desktop to the VPN. Your laptop (or any computer) should be also connected to the same VPN (or to public wifi in the company). Don't forget to install `openssh-server` before you will try to connect through `ssh`. On 16.04 you may need to install pptp things: `sudo apt-get install network-manager-pptp pptp-linux`.
 
-The setup is inspired by https://www.youtube.com/watch?v=nKP6M0xIuqE. The specific info can be found from IT helpdesk in your company (TUNI note: https://tutfi.sharepoint.com/sites/intra-en/services-and-support/network-connections/tut-connections-from-outside).
+The setup is inspired by https://www.youtube.com/watch?v=nKP6M0xIuqE. The specific info can be found from IT helpdesk in your company (TUNI note: https://info2019.tuni.fi/wireless-networks/#Roam.fi).
 
 1. go to vpn settings. and follow the steps from the video mentioned above and use the info from IT helpdesk in your company (TUNI note: `staff-ras.vpn.tut.fi` gateway and the credentials from TUT). In the password form select that it will be applicable for all users.
 2. Then we need to prohibit Wired connections to connect automatically after the startup. Type `nm-connection-editor` in terminal (or just to to Edit connection on 16.04). Click on wired connections and go to Preferences (setting icon at the bottom) > General > uncheck the box. Repeat for another connection.
