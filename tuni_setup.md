@@ -36,10 +36,11 @@ options nouveau modeset=0
 24. install openssh-server: `sudo apt-get install openssh-server` (if throws errors with packages see https://askubuntu.com/questions/760378/can-not-install-openssh-server-on-ubuntu-16-04/795062)
 25. install miniconda/anaconda (just search in google how to install one of those but basically you need to `wget` the `.sh` file and run it with bash). During installation select `yes` when it will prompt whether to add into to `.bashrc`. Don't dorget to `source .bashrc` afterwards. 
 
-Making identical python environments 
+Cloning conda environments:
 ```
-conda your_env_name export > environment.yml
-conda your_env_name create -f environment.yml
+conda activate your_env_name
+conda env export > environment.yml
+conda env create -f environment.yml
 ```
 26. Setup VPN connection. See info below.
 27. Turn on automatic boot into text-mode (no graphical interface). `sudo systemctl set-default multi-user.target` (see also https://askubuntu.com/questions/1056363/how-to-disable-gui-on-boot-in-18-04-bionic-beaver).
