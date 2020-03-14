@@ -2,5 +2,5 @@
 
 ## Technical notes
 
-[How to setup a personal GPU desktop with Ubuntu 18.04](how_to_setup_a_desktop.md)
-[Set up Remote Access](how_to_setup_remote_access.md)
+- [How to setup a personal GPU desktop with Ubuntu 18.04](how_to_setup_a_desktop.md)
+- [Set up Remote Access](how_to_setup_remote_access.md)
