@@ -1,8 +1,11 @@
 ## Set up Remote Access
 
-TODO: grammar check
+I assume that you have an Ubuntu 16.04 or 18.04 desktop (host) at your office and you would like to access it remotely from, let's say, your personal laptop (client). At this moment (13.03.2020), there are two ways to do it at Tampere University which we are aware of: 
 
-I assume that you have an Ubuntu 16.04 or 18.04 desktop (host) at your office and you would like to access it remotely from, let's say, your personal laptop (client). At this moment (13.03.2020), there are two ways to do it at Tampere University which we are aware of: 1) using `ssh-forward.cc.tut.fi` as a proxy server to connect to your host which is connected to `pit.cs.tut.fi`; 2) connect both the host and client to VPN `staff-ras.vpn.tut.fi`. In both cases, the host machine will be reachable using a University-maintained laptop using University `TUNI-STAFF` WiFi or pre-installed VPN, for a self-maintained laptop you will need to do something extra.
+1. Using `ssh-forward.cc.tut.fi` as a proxy server to connect to your host which is connected to `pit.cs.tut.fi`.
+2. Connect both the host and client to VPN `staff-ras.vpn.tut.fi`. 
+
+In both cases, the host machine will be reachable using a University-maintained laptop using University `TUNI-STAFF` WiFi or pre-installed VPN, for a self-maintained laptop you will need to do something extra.
 
 ## Connecting using a proxy server (`ssh-forward.cc.tut.fi`)
 
