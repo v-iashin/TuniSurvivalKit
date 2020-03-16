@@ -2,8 +2,16 @@
 
 This is a guide which I wrote for myself when I had to install a similar enviroment on several machines. This instruction are quite shallow and there is must be a better way but it works.
 
-## Goal
-To install Ubuntu 18.04 on a clean machine with a custom disk space allocation, VPN, booting into text mode rather than a GUI.
+The goal is to install Ubuntu 18.04 on a clean machine with a custom disk space allocation, VPN, booting into text mode rather than a GUI.
+
+- [How to setup a personal GPU desktop with Ubuntu 18.04](#how-to-setup-a-personal-gpu-desktop-with-ubuntu-1804)
+  - [Ubuntu installation](#ubuntu-installation)
+  - [Set of packages](#set-of-packages)
+  - [conda super-short introduction](#conda-super-short-introduction)
+    - [Installation](#installation)
+    - [Creating and Clonning an Enviroment](#creating-and-clonning-an-enviroment)
+  - [Problem with `torch.nn.DataParallel()` and ThreadRipper processors](#problem-with-torchnndataparallel-and-threadripper-processors)
+  - [Mouting the unformatted disks](#mouting-the-unformatted-disks)
 
 ## Ubuntu installation
 Assuming that use have a bootable usb with Ubuntu 18.04 and a clean machine.
